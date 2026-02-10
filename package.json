@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@mikro-orm/core": "7.0.0-dev.238",
+    "@mikro-orm/sqlite": "7.0.0-dev.238"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/demo.ts"
+  }
+}

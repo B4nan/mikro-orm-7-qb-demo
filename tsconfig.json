@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "strict": true,
+    "outDir": "dist",
+    "erasableSyntaxOnly": true
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true
+  }
+}
